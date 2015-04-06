@@ -42,6 +42,8 @@ public class Car {
 		int slow = this.maxSpeed - amount;
 		if(amount <= this.speed){
 			this.speed = slow;
+		}else{
+			this.speed = minSpeed;
 		}
 	}
 	/**
